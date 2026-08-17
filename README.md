@@ -1,4 +1,4 @@
-#Cadastro de Colaboradores
+# Cadastro de Colaboradores
 
 Sistema de cadastro de colaboradores desenvolvido como atividade acadêmica, utilizando **HTML, CSS e PHP**.
 
