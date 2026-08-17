@@ -2,11 +2,11 @@
 
 Sistema de cadastro de colaboradores desenvolvido como atividade acadêmica, utilizando **HTML, CSS e PHP**.
 
-## Sobre o projeto
+Sobre o projeto
 
 O projeto consiste em um formulário para cadastro de novos colaboradores. Após o preenchimento e envio do formulário, os dados são recebidos e processados por um arquivo PHP, que apresenta as informações cadastradas em uma página de confirmação.
 
-## Tecnologias utilizadas
+Tecnologias utilizadas
 
 * HTML5
 * CSS3
