@@ -26,7 +26,7 @@ Funcionalidades
 Estrutura do projeto
 
 ```text
-cadastro-colaboradores-php-html/
+cadastro-colaboradores
 ├── cadastro.html
 ├── processaCadastro.php
 └── style.css
