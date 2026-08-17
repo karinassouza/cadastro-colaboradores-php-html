@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EFF6FF;
+    color: #374151;
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color: #2563EB;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* APRESENTAÇÃO */
+
+.apresentacao {
+    text-align: center;
+    padding: 45px 20px 25px;
+}
+
+.apresentacao h1 {
+    color: #1D4ED8;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.apresentacao p {
+    font-size: 16px;
+    color: #64748B;
+}
+
+/* FORMULÁRIO */
+
+.formulario {
+    background-color: white;
+    width: 90%;
+    max-width: 650px;
+    margin: 20px auto 50px;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.formulario h2 {
+    color: #2563EB;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #374151;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #CBD5E1;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #2563EB;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1D4ED8;
+}
+
+/* INFORMAÇÕES DE APOIO */
+
+.informacoes {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+.card h3 {
+    color: #2563EB;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #64748B;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #1E3A8A;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px;
+    font-size: 14px;
+}
+
+/* PÁGINA DE CONFIRMAÇÃO */
+
+.cabecalho {
+    text-align: center;
+    padding: 45px 20px 25px;
+}
+
+.cabecalho h1 {
+    color: #1D4ED8;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.cabecalho p {
+    color: #64748B;
+    font-size: 16px;
+}
+
+.conteudo {
+    width: 90%;
+    max-width: 700px;
+    margin: 20px auto 50px;
+}
+
+.dados {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    margin-bottom: 25px;
+}
+
+.dados h2 {
+    color: #2563EB;
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+.informacao {
+    padding: 12px 0;
+    border-bottom: 1px solid #E5E7EB;
+    line-height: 1.5;
+}
+
+.informacao:last-child {
+    border-bottom: none;
+}
+
+.informacao strong {
+    color: #1E3A8A;
+}
+
+.mensagem {
+    background-color: #DBEAFE;
+    border-left: 5px solid #2563EB;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.mensagem h2 {
+    color: #1D4ED8;
+    margin-bottom: 15px;
+}
+
+.mensagem p {
+    line-height: 1.7;
+}
+
+.voltar {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    padding: 13px;
+    background-color: #2563EB;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.voltar:hover {
+    background-color: #1D4ED8;
+}
